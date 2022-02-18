@@ -9,10 +9,15 @@
 import UIKit
 
 class ViewController: UIViewController {
+    @IBOutlet weak var SortbyDate: UIScrollView!
+    @IBOutlet weak var SortbyRating: UIScrollView!
+    
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+    
+    
     }
 
 
