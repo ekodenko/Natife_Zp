@@ -13,6 +13,7 @@
 		849E555627BEDBB4007FB0B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 849E555427BEDBB4007FB0B2 /* Main.storyboard */; };
 		849E555827BEDC92007FB0B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 849E555727BEDC92007FB0B2 /* Assets.xcassets */; };
 		849E555B27BEDC92007FB0B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 849E555927BEDC92007FB0B2 /* LaunchScreen.storyboard */; };
+		849E556327BFACD1007FB0B2 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849E556227BFACD1007FB0B2 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		849E555727BEDC92007FB0B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		849E555A27BEDC92007FB0B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		849E555C27BEDC92007FB0B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		849E556227BFACD1007FB0B2 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				849E555027BEDBB4007FB0B2 /* SceneDelegate.swift */,
 				849E555227BEDBB4007FB0B2 /* ViewController.swift */,
 				849E555427BEDBB4007FB0B2 /* Main.storyboard */,
+				849E556227BFACD1007FB0B2 /* SecondViewController.swift */,
 				849E555727BEDC92007FB0B2 /* Assets.xcassets */,
 				849E555927BEDC92007FB0B2 /* LaunchScreen.storyboard */,
 				849E555C27BEDC92007FB0B2 /* Info.plist */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				849E556327BFACD1007FB0B2 /* SecondViewController.swift in Sources */,
 				849E555327BEDBB4007FB0B2 /* ViewController.swift in Sources */,
 				849E554F27BEDBB4007FB0B2 /* AppDelegate.swift in Sources */,
 				849E555127BEDBB4007FB0B2 /* SceneDelegate.swift in Sources */,
@@ -287,6 +291,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CLH9DBGCQ9;
 				INFOPLIST_FILE = Natife_Zp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,6 +310,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CLH9DBGCQ9;
 				INFOPLIST_FILE = Natife_Zp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

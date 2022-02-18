@@ -46,10 +46,10 @@
             </objects>
             <point key="canvasLocation" x="-262" y="85"/>
         </scene>
-        <!--View Controller-->
+        <!--Second View Controller-->
         <scene sceneID="6LG-en-bbA">
             <objects>
-                <viewController id="FBa-VB-uk4" sceneMemberID="viewController">
+                <viewController id="FBa-VB-uk4" customClass="SecondViewController" customModule="Natife_Zp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="xfX-ju-5xc">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
